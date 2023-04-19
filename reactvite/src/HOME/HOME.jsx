@@ -1,10 +1,9 @@
-import { Menu } from "../shared/Menu/Menu"
 
-
+import { History } from "../History/History"
 export function HOME(){
     return(
-        <>
-        <Menu></Menu>     
+        <> 
+    <History></History>
         </>
     )
 }
