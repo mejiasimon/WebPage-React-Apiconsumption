@@ -1,0 +1,24 @@
+.container-albums{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+}
+.lamina{
+height: 100%;
+width: 20%;
+}
+.galeria{
+height: 100%;
+}
+.titulo{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: none;  
+    color: white;
+}

@@ -2,11 +2,12 @@ import './History.css'
 
 export function History(){
     return(<>
-    
-    <div className="container">
-                <center><img src="https://firebasestorage.googleapis.com/v0/b/tienda-53ad2.appspot.com/o/nos.png?alt=media&token=0caa79df-757b-4815-8590-4b367709fb87" alt="" /></center>  
+    <div className="container-titulo">
            <center> <h2>BIO</h2></center>
+    </div>
+
            <div className="container-text">
+
            <div className="text">
            <p>
            Cuarteto de Nos nace a mediados de los 80 y en los 90 se consolida como una de las bandas más significativas del rock uruguayo. Irreverentes, con humor negro, música de todos los estilos, desafiantes y con una actitiud punk llevada al humor y a la creación de personajes extraños de ficción. Editan en el 94 “Otra Navidad en las Trincheras” y se convierten en la banda más popular del rock uruguayo, trascendiendo a todo público y edades. A tal punto que al día de hoy sigue siendo el disco más vendido de la historia del rock nacional. Cuentan hasta la fecha con 16 trabajos discográficos, generando múltiples discos de Oro, Platino y Triple Platino.
@@ -35,7 +36,6 @@ Lámina Once contó con la producción de Eduardo Cabra (Visitante) y Héctor Ca
  </p>
 </div>
            </div>
-            </div>
 
     </>)
 
