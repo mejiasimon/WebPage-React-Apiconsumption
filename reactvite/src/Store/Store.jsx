@@ -1,3 +1,5 @@
+import './Store.css'
+
 export function Store() {
     const Productos = [
         {
@@ -50,6 +52,12 @@ export function Store() {
         },
         
     ]
+    function hacer(evento){
+evento.target.classList.add("filter")
+    }
+    function hacer2(evento){
+        evento.target.classList.remove("filter")
+    }
     return(<>
         <div className="galeria">
             <h1 className='titulo'>TIENDA</h1>
@@ -60,10 +68,10 @@ export function Store() {
              Productos.map(function(producto){
                  return(
                     
-         <div className="col-lg-3 col-md-6">
+         <div id='tarjeta' className="col-lg-3 col-md-6">
              <h1>{producto.nombre}</h1>
              <p>{producto.descripcion}</p>
-             <img className='img-fluid' src={producto.foto} alt="" />
+             <img className='img-fluid' onMouseOver={hacer} onMouseLeave={hacer2} src={producto.foto} alt="" />
          </div>
                  )
          

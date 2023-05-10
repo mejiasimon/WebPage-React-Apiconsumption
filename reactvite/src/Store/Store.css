@@ -1,0 +1,10 @@
+.container-abums{
+    padding: 30px;
+}
+.filter{
+    filter: grayscale(1);
+    transition: 1s;
+}
+h1{
+    font-size: larger;
+}

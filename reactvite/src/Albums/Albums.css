@@ -1,9 +1,5 @@
 .container-albums{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-align-items: center;
-flex-wrap: nowrap;
+  padding: 30px;
 }
 .lamina{
 height: 100%;
@@ -21,4 +17,7 @@ height: 100%;
     font-weight: 900;
     text-decoration: none;  
     color: white;
+}
+#separacion{
+padding-top: 10px;
 }

@@ -74,12 +74,12 @@ return(<>
 <div className="galeria">
     <h1 className='titulo'>DISCOGRAFIA</h1>
 <div className="container-albums">
-<div className="row justify-content-center">
+<div className="row justify-content-around">
 {
     laminas.map(function(lamina){
         return(
 <div className="col-lg-3 col-md-6">
-    <a href=""><img className='img-fluid' src={lamina.img} alt="" /></a>
+    <a id='separacion' href=""><img  className='img-fluid' src={lamina.img} alt="" /></a>
 </div>
         )
 
