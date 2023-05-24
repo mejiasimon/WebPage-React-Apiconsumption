@@ -1,4 +1,6 @@
 import './Albums.css'
+import { Canciones } from '../services/servicioCanciones'
+import { useState,useEffect } from 'react'
 export function Albums(){
 const laminas=[
     {
@@ -69,7 +71,13 @@ img:"https://firebasestorage.googleapis.com/v0/b/cuarte-f6c14.appspot.com/o/raro
         id:"17",
 img:"https://firebasestorage.googleapis.com/v0/b/cuarte-f6c14.appspot.com/o/soy-una-arveja.jpg?alt=media&token=6621da03-2890-46e8-8e76-f012d178ef1b"}
     ]
-
+    const[albums,setalbums]=useState(null)
+    const[estacargando,setestacargando]=useState(true)
+useEffect(function(){
+Canciones().then(function(respuesta){
+console.log(respuesta)
+},[])
+},[])
 return(<>
 <div className="galeria">
     <h1 className='titulo'>DISCOGRAFIA</h1>
