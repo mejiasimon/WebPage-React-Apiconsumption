@@ -27,12 +27,14 @@ height: 100%;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 900;
+    font-size: 3.125rem;
     text-decoration: none;
 }
 .members{
     text-align: center;
     background-color:rgb(194, 194, 163)
     hsl(60, 20%, 70%);
+    padding-bottom: 100px;
 }
 #primero{
     --animate-duration: 1s;

@@ -7,4 +7,12 @@
 }
 h1{
     font-size: larger;
+    color: white;
+}
+.producto{
+    height: 25rem;
+    width: 90%;
+}
+.row-productos{
+    padding-top: 2.8125rem;
 }

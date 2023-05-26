@@ -1,23 +1,25 @@
 .container-albums{
-  padding: 30px;
+padding: 5%;
 }
-.lamina{
-height: 100%;
-width: 20%;
+a .lamina{
+  height: 18.75rem;
+  width: 90%;
+}
+.row-laminas{
+  padding-top: 40px;
 }
 .galeria{
-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .titulo{
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    font-size: 50px;
+    padding-top: 50px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: 900;
     text-decoration: none;  
     color: white;
-}
-#separacion{
-padding-top: 10px;
 }

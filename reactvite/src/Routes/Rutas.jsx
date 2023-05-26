@@ -4,7 +4,6 @@ import { Members } from "../Members/Members"
 import { Menu } from "../shared/Menu/Menu"
 import { Albums } from "../Albums/Albums"
 import { Store } from "../Store/Store"
-import { Loading } from "../Hook/loading"
 export function Rutas(){
     return(
       <>
@@ -14,7 +13,6 @@ export function Rutas(){
         <Route path="/tienda" element={<Store/>} />
         <Route path="/albums" element={<Albums/>} />
         <Route path="/members" element={<Members />} />
-        <Route path="/carga" element={<Loading/>}/>
       </Routes>
       
       </>

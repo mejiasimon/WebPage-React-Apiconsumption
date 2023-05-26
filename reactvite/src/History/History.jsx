@@ -7,8 +7,10 @@ export function History(){
     </div>
 
            <div className="container-text">
-
-           <div className="text">
+           <div className="page">
+       <div className="margin">
+       </div>
+       <div className="text">
            <p>
            Cuarteto de Nos nace a mediados de los 80 y en los 90 se consolida como una de las bandas más significativas del rock uruguayo. Irreverentes, con humor negro, música de todos los estilos, desafiantes y con una actitiud punk llevada al humor y a la creación de personajes extraños de ficción. Editan en el 94 “Otra Navidad en las Trincheras” y se convierten en la banda más popular del rock uruguayo, trascendiendo a todo público y edades. A tal punto que al día de hoy sigue siendo el disco más vendido de la historia del rock nacional. Cuentan hasta la fecha con 16 trabajos discográficos, generando múltiples discos de Oro, Platino y Triple Platino.
 
@@ -34,6 +36,7 @@ Su último disco “Jueves” fue denominado como un monstruo de 4 cabezas, ya q
 En 2021 se dio a conocer el primer single “Fiesta en lo del Dr. Hermes” que forma parte de su reciente disco editado, en Julio 2022, denominado “Lámina once”. Junto con “La Ciudad sin alma” y “Maldito show”, la banda dio a conocer una muestra de por dónde venía su nuevo trabajo discográfico. Una obra de 8 canciones que está fuertemente marcada por una fuerte reflexión filosófica acerca de nuestra vida actual . Donde el arte del mismo, plasma de forma genial parte de esas preguntas, con 9 imágenes que simulan los famosos Test de Rorschach e invitan a abrir nuestros sentidos y profundizar en qué vemos de todo lo que vemos?
 Lámina Once contó con la producción de Eduardo Cabra (Visitante) y Héctor Castillo, dos amigos de la casa, con quienes la banda ya había trabajado en su antecesor, “JUEVES”. Grabado en pandemia entre Montevideo, Puerto Rico y Nueva York, este es el primer disco que sale por su sello propio PORFIADO RECORDS
  </p>
+</div>
 </div>
            </div>
 
